@@ -1,0 +1,87 @@
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    background-color: #282c34; 
+    min-height: 45vh;
+    padding: 130px 40px 0px 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+    box-sizing: border-box;
+}
+
+.form-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-field {
+    width: 400px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+}
+
+.red-button {
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 8px 55px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.todo-card {
+    background-color: #f8f9fa; 
+    padding: 20px 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 10px 10px;
+    margin-right: 40px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.todo-text {
+    color: #333;
+    font-size: 20px;
+}
+
+.delete-button {
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}

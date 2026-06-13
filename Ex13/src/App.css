@@ -1,0 +1,57 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.card-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.card h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.demo-box {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+
+.label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.mini-card {
+  padding: 6px 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.mini-card:first-of-type {
+  border-top: none;
+}
+
+.mini-card h3 {
+  margin: 0 0 2px;
+  font-size: 0.95rem;
+}
+
+.mini-card p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.92rem;
+}
+
+.error-message {
+  color: #b91c1c;
+  margin-top: 6px;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+.column {
+  flex: 1;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.panel-note {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.dish-list,
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.dish-card,
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
+
+.dish-header,
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.dish-category,
+.dish-description,
+.cart-item p,
+.empty-cart {
+  margin: 0.25rem 0 0;
+}
+
+.dish-price {
+  font-weight: 600;
+}
+
+.add-button,
+.remove-button,
+.clear-button {
+  border: 1px solid #999;
+  background: #fff;
+  padding: 0.45rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart-summary {
+  margin-top: 1rem;
+  border-top: 1px solid #ddd;
+  padding-top: 0.75rem;
+}
